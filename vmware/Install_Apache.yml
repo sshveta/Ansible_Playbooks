@@ -1,5 +1,5 @@
 ---
-- hosts: 10.8.196.30
+- hosts: 10.8.196.189
 
   tasks:
     - name: Install Package
