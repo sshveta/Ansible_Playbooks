@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: 10.8.196.30
 
   tasks:
     - name: Install Package
