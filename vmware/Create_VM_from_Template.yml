@@ -4,7 +4,7 @@
   connection: local
 
   vars:
-    provider_id: "21000000000002"
+    provider_id: "2"
     max_retries: 9
     retry_interval: 20
 
@@ -35,7 +35,7 @@
         from_template: yes
         template_src: "{{ template }}"
         esxi:
-          datacenter: "{{ iSCSI-Datastore-1 }}"
+          datacenter: "{{ datacenter }}"
           hostname: "{{ esxi_host }}"
       register: new_vm
 
